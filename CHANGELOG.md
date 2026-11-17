@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.12.3
+
+_2026-11-17_
+
+- **Update sbt-scalafix to 0.14.10 (#170)**  
+  sbt-scalafix 0.14.9 doesn't support sbt 2.1: in sbt 2.1.x builds,
+  `scalafix` and `scalafixCheckAll` report `SemanticDB not found` for every
+  file. 0.14.10 adds sbt 2.1 support. Builds on sbt 2.0.x keep working.
+
 ## 0.12.2
 
 _2026-10-29_
